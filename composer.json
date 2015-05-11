@@ -1,0 +1,17 @@
+{
+    "name": "api",
+
+    "require": {
+        "silex/silex": "1.0.*",
+      
+        "doctrine/orm": "*",
+        "doctrine/dbal": "2.5"
+    },
+    "minimum-stability": "dev", 
+    
+    "autoload":{
+        "psr-0":{
+            "Frase" : "src"
+        }
+    }
+}
